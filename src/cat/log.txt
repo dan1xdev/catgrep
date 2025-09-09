@@ -1,0 +1,576 @@
+-b tests/test1.txt
+-b tests/test2.txt
+-b tests/test3.txt
+-b tests/test4.txt
+-e tests/test1.txt
+-e tests/test2.txt
+-e tests/test3.txt
+-e tests/test4.txt
+-n tests/test1.txt
+-n tests/test2.txt
+-n tests/test3.txt
+-n tests/test4.txt
+-s tests/test1.txt
+-s tests/test2.txt
+-s tests/test3.txt
+-s tests/test4.txt
+-t tests/test1.txt
+-t tests/test2.txt
+-t tests/test3.txt
+-t tests/test4.txt
+-v tests/test1.txt
+-v tests/test2.txt
+-v tests/test3.txt
+-v tests/test4.txt
+-b -e tests/test1.txt
+-b -e tests/test2.txt
+-b -e tests/test3.txt
+-b -e tests/test4.txt
+-b -n tests/test1.txt
+-b -n tests/test2.txt
+-b -n tests/test3.txt
+-b -n tests/test4.txt
+-b -s tests/test1.txt
+-b -s tests/test2.txt
+-b -s tests/test3.txt
+-b -s tests/test4.txt
+-b -t tests/test1.txt
+-b -t tests/test2.txt
+-b -t tests/test3.txt
+-b -t tests/test4.txt
+-b -v tests/test1.txt
+-b -v tests/test2.txt
+-b -v tests/test3.txt
+-b -v tests/test4.txt
+-e -b tests/test1.txt
+-e -b tests/test2.txt
+-e -b tests/test3.txt
+-e -b tests/test4.txt
+-e -n tests/test1.txt
+-e -n tests/test2.txt
+-e -n tests/test3.txt
+-e -n tests/test4.txt
+-e -s tests/test1.txt
+-e -s tests/test2.txt
+-e -s tests/test3.txt
+-e -s tests/test4.txt
+-e -t tests/test1.txt
+-e -t tests/test2.txt
+-e -t tests/test3.txt
+-e -t tests/test4.txt
+-e -v tests/test1.txt
+-e -v tests/test2.txt
+-e -v tests/test3.txt
+-e -v tests/test4.txt
+-n -b tests/test1.txt
+-n -b tests/test2.txt
+-n -b tests/test3.txt
+-n -b tests/test4.txt
+-n -e tests/test1.txt
+-n -e tests/test2.txt
+-n -e tests/test3.txt
+-n -e tests/test4.txt
+-n -s tests/test1.txt
+-n -s tests/test2.txt
+-n -s tests/test3.txt
+-n -s tests/test4.txt
+-n -t tests/test1.txt
+-n -t tests/test2.txt
+-n -t tests/test3.txt
+-n -t tests/test4.txt
+-n -v tests/test1.txt
+-n -v tests/test2.txt
+-n -v tests/test3.txt
+-n -v tests/test4.txt
+-s -b tests/test1.txt
+-s -b tests/test2.txt
+-s -b tests/test3.txt
+-s -b tests/test4.txt
+-s -e tests/test1.txt
+-s -e tests/test2.txt
+-s -e tests/test3.txt
+-s -e tests/test4.txt
+-s -n tests/test1.txt
+-s -n tests/test2.txt
+-s -n tests/test3.txt
+-s -n tests/test4.txt
+-s -t tests/test1.txt
+-s -t tests/test2.txt
+-s -t tests/test3.txt
+-s -t tests/test4.txt
+-s -v tests/test1.txt
+-s -v tests/test2.txt
+-s -v tests/test3.txt
+-s -v tests/test4.txt
+-t -b tests/test1.txt
+-t -b tests/test2.txt
+-t -b tests/test3.txt
+-t -b tests/test4.txt
+-t -e tests/test1.txt
+-t -e tests/test2.txt
+-t -e tests/test3.txt
+-t -e tests/test4.txt
+-t -n tests/test1.txt
+-t -n tests/test2.txt
+-t -n tests/test3.txt
+-t -n tests/test4.txt
+-t -s tests/test1.txt
+-t -s tests/test2.txt
+-t -s tests/test3.txt
+-t -s tests/test4.txt
+-t -v tests/test1.txt
+-t -v tests/test2.txt
+-t -v tests/test3.txt
+-t -v tests/test4.txt
+-v -b tests/test1.txt
+-v -b tests/test2.txt
+-v -b tests/test3.txt
+-v -b tests/test4.txt
+-v -e tests/test1.txt
+-v -e tests/test2.txt
+-v -e tests/test3.txt
+-v -e tests/test4.txt
+-v -n tests/test1.txt
+-v -n tests/test2.txt
+-v -n tests/test3.txt
+-v -n tests/test4.txt
+-v -s tests/test1.txt
+-v -s tests/test2.txt
+-v -s tests/test3.txt
+-v -s tests/test4.txt
+-v -t tests/test1.txt
+-v -t tests/test2.txt
+-v -t tests/test3.txt
+-v -t tests/test4.txt
+-b tests/test1.txt tests/test2.txt
+-b tests/test1.txt tests/test3.txt
+-b tests/test1.txt tests/test4.txt
+-b tests/test2.txt tests/test1.txt
+-b tests/test2.txt tests/test3.txt
+-b tests/test2.txt tests/test4.txt
+-b tests/test3.txt tests/test1.txt
+-b tests/test3.txt tests/test2.txt
+-b tests/test3.txt tests/test4.txt
+-b tests/test4.txt tests/test1.txt
+-b tests/test4.txt tests/test2.txt
+-b tests/test4.txt tests/test3.txt
+-e tests/test1.txt tests/test2.txt
+-e tests/test1.txt tests/test3.txt
+-e tests/test1.txt tests/test4.txt
+-e tests/test2.txt tests/test1.txt
+-e tests/test2.txt tests/test3.txt
+-e tests/test2.txt tests/test4.txt
+-e tests/test3.txt tests/test1.txt
+-e tests/test3.txt tests/test2.txt
+-e tests/test3.txt tests/test4.txt
+-e tests/test4.txt tests/test1.txt
+-e tests/test4.txt tests/test2.txt
+-e tests/test4.txt tests/test3.txt
+-n tests/test1.txt tests/test2.txt
+-n tests/test1.txt tests/test3.txt
+-n tests/test1.txt tests/test4.txt
+-n tests/test2.txt tests/test1.txt
+-n tests/test2.txt tests/test3.txt
+-n tests/test2.txt tests/test4.txt
+-n tests/test3.txt tests/test1.txt
+-n tests/test3.txt tests/test2.txt
+-n tests/test3.txt tests/test4.txt
+-n tests/test4.txt tests/test1.txt
+-n tests/test4.txt tests/test2.txt
+-n tests/test4.txt tests/test3.txt
+-s tests/test1.txt tests/test2.txt
+-s tests/test1.txt tests/test3.txt
+-s tests/test1.txt tests/test4.txt
+-s tests/test2.txt tests/test1.txt
+-s tests/test2.txt tests/test3.txt
+-s tests/test2.txt tests/test4.txt
+-s tests/test3.txt tests/test1.txt
+-s tests/test3.txt tests/test2.txt
+-s tests/test3.txt tests/test4.txt
+-s tests/test4.txt tests/test1.txt
+-s tests/test4.txt tests/test2.txt
+-s tests/test4.txt tests/test3.txt
+-t tests/test1.txt tests/test2.txt
+-t tests/test1.txt tests/test3.txt
+-t tests/test1.txt tests/test4.txt
+-t tests/test2.txt tests/test1.txt
+-t tests/test2.txt tests/test3.txt
+-t tests/test2.txt tests/test4.txt
+-t tests/test3.txt tests/test1.txt
+-t tests/test3.txt tests/test2.txt
+-t tests/test3.txt tests/test4.txt
+-t tests/test4.txt tests/test1.txt
+-t tests/test4.txt tests/test2.txt
+-t tests/test4.txt tests/test3.txt
+-v tests/test1.txt tests/test2.txt
+-v tests/test1.txt tests/test3.txt
+-v tests/test1.txt tests/test4.txt
+-v tests/test2.txt tests/test1.txt
+-v tests/test2.txt tests/test3.txt
+-v tests/test2.txt tests/test4.txt
+-v tests/test3.txt tests/test1.txt
+-v tests/test3.txt tests/test2.txt
+-v tests/test3.txt tests/test4.txt
+-v tests/test4.txt tests/test1.txt
+-v tests/test4.txt tests/test2.txt
+-v tests/test4.txt tests/test3.txt
+-b -e tests/test1.txt tests/test2.txt
+-b -e tests/test1.txt tests/test3.txt
+-b -e tests/test1.txt tests/test4.txt
+-b -e tests/test2.txt tests/test1.txt
+-b -e tests/test2.txt tests/test3.txt
+-b -e tests/test2.txt tests/test4.txt
+-b -e tests/test3.txt tests/test1.txt
+-b -e tests/test3.txt tests/test2.txt
+-b -e tests/test3.txt tests/test4.txt
+-b -e tests/test4.txt tests/test1.txt
+-b -e tests/test4.txt tests/test2.txt
+-b -e tests/test4.txt tests/test3.txt
+-b -n tests/test1.txt tests/test2.txt
+-b -n tests/test1.txt tests/test3.txt
+-b -n tests/test1.txt tests/test4.txt
+-b -n tests/test2.txt tests/test1.txt
+-b -n tests/test2.txt tests/test3.txt
+-b -n tests/test2.txt tests/test4.txt
+-b -n tests/test3.txt tests/test1.txt
+-b -n tests/test3.txt tests/test2.txt
+-b -n tests/test3.txt tests/test4.txt
+-b -n tests/test4.txt tests/test1.txt
+-b -n tests/test4.txt tests/test2.txt
+-b -n tests/test4.txt tests/test3.txt
+-b -s tests/test1.txt tests/test2.txt
+-b -s tests/test1.txt tests/test3.txt
+-b -s tests/test1.txt tests/test4.txt
+-b -s tests/test2.txt tests/test1.txt
+-b -s tests/test2.txt tests/test3.txt
+-b -s tests/test2.txt tests/test4.txt
+-b -s tests/test3.txt tests/test1.txt
+-b -s tests/test3.txt tests/test2.txt
+-b -s tests/test3.txt tests/test4.txt
+-b -s tests/test4.txt tests/test1.txt
+-b -s tests/test4.txt tests/test2.txt
+-b -s tests/test4.txt tests/test3.txt
+-b -t tests/test1.txt tests/test2.txt
+-b -t tests/test1.txt tests/test3.txt
+-b -t tests/test1.txt tests/test4.txt
+-b -t tests/test2.txt tests/test1.txt
+-b -t tests/test2.txt tests/test3.txt
+-b -t tests/test2.txt tests/test4.txt
+-b -t tests/test3.txt tests/test1.txt
+-b -t tests/test3.txt tests/test2.txt
+-b -t tests/test3.txt tests/test4.txt
+-b -t tests/test4.txt tests/test1.txt
+-b -t tests/test4.txt tests/test2.txt
+-b -t tests/test4.txt tests/test3.txt
+-b -v tests/test1.txt tests/test2.txt
+-b -v tests/test1.txt tests/test3.txt
+-b -v tests/test1.txt tests/test4.txt
+-b -v tests/test2.txt tests/test1.txt
+-b -v tests/test2.txt tests/test3.txt
+-b -v tests/test2.txt tests/test4.txt
+-b -v tests/test3.txt tests/test1.txt
+-b -v tests/test3.txt tests/test2.txt
+-b -v tests/test3.txt tests/test4.txt
+-b -v tests/test4.txt tests/test1.txt
+-b -v tests/test4.txt tests/test2.txt
+-b -v tests/test4.txt tests/test3.txt
+-e -b tests/test1.txt tests/test2.txt
+-e -b tests/test1.txt tests/test3.txt
+-e -b tests/test1.txt tests/test4.txt
+-e -b tests/test2.txt tests/test1.txt
+-e -b tests/test2.txt tests/test3.txt
+-e -b tests/test2.txt tests/test4.txt
+-e -b tests/test3.txt tests/test1.txt
+-e -b tests/test3.txt tests/test2.txt
+-e -b tests/test3.txt tests/test4.txt
+-e -b tests/test4.txt tests/test1.txt
+-e -b tests/test4.txt tests/test2.txt
+-e -b tests/test4.txt tests/test3.txt
+-e -n tests/test1.txt tests/test2.txt
+-e -n tests/test1.txt tests/test3.txt
+-e -n tests/test1.txt tests/test4.txt
+-e -n tests/test2.txt tests/test1.txt
+-e -n tests/test2.txt tests/test3.txt
+-e -n tests/test2.txt tests/test4.txt
+-e -n tests/test3.txt tests/test1.txt
+-e -n tests/test3.txt tests/test2.txt
+-e -n tests/test3.txt tests/test4.txt
+-e -n tests/test4.txt tests/test1.txt
+-e -n tests/test4.txt tests/test2.txt
+-e -n tests/test4.txt tests/test3.txt
+-e -s tests/test1.txt tests/test2.txt
+-e -s tests/test1.txt tests/test3.txt
+-e -s tests/test1.txt tests/test4.txt
+-e -s tests/test2.txt tests/test1.txt
+-e -s tests/test2.txt tests/test3.txt
+-e -s tests/test2.txt tests/test4.txt
+-e -s tests/test3.txt tests/test1.txt
+-e -s tests/test3.txt tests/test2.txt
+-e -s tests/test3.txt tests/test4.txt
+-e -s tests/test4.txt tests/test1.txt
+-e -s tests/test4.txt tests/test2.txt
+-e -s tests/test4.txt tests/test3.txt
+-e -t tests/test1.txt tests/test2.txt
+-e -t tests/test1.txt tests/test3.txt
+-e -t tests/test1.txt tests/test4.txt
+-e -t tests/test2.txt tests/test1.txt
+-e -t tests/test2.txt tests/test3.txt
+-e -t tests/test2.txt tests/test4.txt
+-e -t tests/test3.txt tests/test1.txt
+-e -t tests/test3.txt tests/test2.txt
+-e -t tests/test3.txt tests/test4.txt
+-e -t tests/test4.txt tests/test1.txt
+-e -t tests/test4.txt tests/test2.txt
+-e -t tests/test4.txt tests/test3.txt
+-e -v tests/test1.txt tests/test2.txt
+-e -v tests/test1.txt tests/test3.txt
+-e -v tests/test1.txt tests/test4.txt
+-e -v tests/test2.txt tests/test1.txt
+-e -v tests/test2.txt tests/test3.txt
+-e -v tests/test2.txt tests/test4.txt
+-e -v tests/test3.txt tests/test1.txt
+-e -v tests/test3.txt tests/test2.txt
+-e -v tests/test3.txt tests/test4.txt
+-e -v tests/test4.txt tests/test1.txt
+-e -v tests/test4.txt tests/test2.txt
+-e -v tests/test4.txt tests/test3.txt
+-n -b tests/test1.txt tests/test2.txt
+-n -b tests/test1.txt tests/test3.txt
+-n -b tests/test1.txt tests/test4.txt
+-n -b tests/test2.txt tests/test1.txt
+-n -b tests/test2.txt tests/test3.txt
+-n -b tests/test2.txt tests/test4.txt
+-n -b tests/test3.txt tests/test1.txt
+-n -b tests/test3.txt tests/test2.txt
+-n -b tests/test3.txt tests/test4.txt
+-n -b tests/test4.txt tests/test1.txt
+-n -b tests/test4.txt tests/test2.txt
+-n -b tests/test4.txt tests/test3.txt
+-n -e tests/test1.txt tests/test2.txt
+-n -e tests/test1.txt tests/test3.txt
+-n -e tests/test1.txt tests/test4.txt
+-n -e tests/test2.txt tests/test1.txt
+-n -e tests/test2.txt tests/test3.txt
+-n -e tests/test2.txt tests/test4.txt
+-n -e tests/test3.txt tests/test1.txt
+-n -e tests/test3.txt tests/test2.txt
+-n -e tests/test3.txt tests/test4.txt
+-n -e tests/test4.txt tests/test1.txt
+-n -e tests/test4.txt tests/test2.txt
+-n -e tests/test4.txt tests/test3.txt
+-n -s tests/test1.txt tests/test2.txt
+-n -s tests/test1.txt tests/test3.txt
+-n -s tests/test1.txt tests/test4.txt
+-n -s tests/test2.txt tests/test1.txt
+-n -s tests/test2.txt tests/test3.txt
+-n -s tests/test2.txt tests/test4.txt
+-n -s tests/test3.txt tests/test1.txt
+-n -s tests/test3.txt tests/test2.txt
+-n -s tests/test3.txt tests/test4.txt
+-n -s tests/test4.txt tests/test1.txt
+-n -s tests/test4.txt tests/test2.txt
+-n -s tests/test4.txt tests/test3.txt
+-n -t tests/test1.txt tests/test2.txt
+-n -t tests/test1.txt tests/test3.txt
+-n -t tests/test1.txt tests/test4.txt
+-n -t tests/test2.txt tests/test1.txt
+-n -t tests/test2.txt tests/test3.txt
+-n -t tests/test2.txt tests/test4.txt
+-n -t tests/test3.txt tests/test1.txt
+-n -t tests/test3.txt tests/test2.txt
+-n -t tests/test3.txt tests/test4.txt
+-n -t tests/test4.txt tests/test1.txt
+-n -t tests/test4.txt tests/test2.txt
+-n -t tests/test4.txt tests/test3.txt
+-n -v tests/test1.txt tests/test2.txt
+-n -v tests/test1.txt tests/test3.txt
+-n -v tests/test1.txt tests/test4.txt
+-n -v tests/test2.txt tests/test1.txt
+-n -v tests/test2.txt tests/test3.txt
+-n -v tests/test2.txt tests/test4.txt
+-n -v tests/test3.txt tests/test1.txt
+-n -v tests/test3.txt tests/test2.txt
+-n -v tests/test3.txt tests/test4.txt
+-n -v tests/test4.txt tests/test1.txt
+-n -v tests/test4.txt tests/test2.txt
+-n -v tests/test4.txt tests/test3.txt
+-s -b tests/test1.txt tests/test2.txt
+-s -b tests/test1.txt tests/test3.txt
+-s -b tests/test1.txt tests/test4.txt
+-s -b tests/test2.txt tests/test1.txt
+-s -b tests/test2.txt tests/test3.txt
+-s -b tests/test2.txt tests/test4.txt
+-s -b tests/test3.txt tests/test1.txt
+-s -b tests/test3.txt tests/test2.txt
+-s -b tests/test3.txt tests/test4.txt
+-s -b tests/test4.txt tests/test1.txt
+-s -b tests/test4.txt tests/test2.txt
+-s -b tests/test4.txt tests/test3.txt
+-s -e tests/test1.txt tests/test2.txt
+-s -e tests/test1.txt tests/test3.txt
+-s -e tests/test1.txt tests/test4.txt
+-s -e tests/test2.txt tests/test1.txt
+-s -e tests/test2.txt tests/test3.txt
+-s -e tests/test2.txt tests/test4.txt
+-s -e tests/test3.txt tests/test1.txt
+-s -e tests/test3.txt tests/test2.txt
+-s -e tests/test3.txt tests/test4.txt
+-s -e tests/test4.txt tests/test1.txt
+-s -e tests/test4.txt tests/test2.txt
+-s -e tests/test4.txt tests/test3.txt
+-s -n tests/test1.txt tests/test2.txt
+-s -n tests/test1.txt tests/test3.txt
+-s -n tests/test1.txt tests/test4.txt
+-s -n tests/test2.txt tests/test1.txt
+-s -n tests/test2.txt tests/test3.txt
+-s -n tests/test2.txt tests/test4.txt
+-s -n tests/test3.txt tests/test1.txt
+-s -n tests/test3.txt tests/test2.txt
+-s -n tests/test3.txt tests/test4.txt
+-s -n tests/test4.txt tests/test1.txt
+-s -n tests/test4.txt tests/test2.txt
+-s -n tests/test4.txt tests/test3.txt
+-s -t tests/test1.txt tests/test2.txt
+-s -t tests/test1.txt tests/test3.txt
+-s -t tests/test1.txt tests/test4.txt
+-s -t tests/test2.txt tests/test1.txt
+-s -t tests/test2.txt tests/test3.txt
+-s -t tests/test2.txt tests/test4.txt
+-s -t tests/test3.txt tests/test1.txt
+-s -t tests/test3.txt tests/test2.txt
+-s -t tests/test3.txt tests/test4.txt
+-s -t tests/test4.txt tests/test1.txt
+-s -t tests/test4.txt tests/test2.txt
+-s -t tests/test4.txt tests/test3.txt
+-s -v tests/test1.txt tests/test2.txt
+-s -v tests/test1.txt tests/test3.txt
+-s -v tests/test1.txt tests/test4.txt
+-s -v tests/test2.txt tests/test1.txt
+-s -v tests/test2.txt tests/test3.txt
+-s -v tests/test2.txt tests/test4.txt
+-s -v tests/test3.txt tests/test1.txt
+-s -v tests/test3.txt tests/test2.txt
+-s -v tests/test3.txt tests/test4.txt
+-s -v tests/test4.txt tests/test1.txt
+-s -v tests/test4.txt tests/test2.txt
+-s -v tests/test4.txt tests/test3.txt
+-t -b tests/test1.txt tests/test2.txt
+-t -b tests/test1.txt tests/test3.txt
+-t -b tests/test1.txt tests/test4.txt
+-t -b tests/test2.txt tests/test1.txt
+-t -b tests/test2.txt tests/test3.txt
+-t -b tests/test2.txt tests/test4.txt
+-t -b tests/test3.txt tests/test1.txt
+-t -b tests/test3.txt tests/test2.txt
+-t -b tests/test3.txt tests/test4.txt
+-t -b tests/test4.txt tests/test1.txt
+-t -b tests/test4.txt tests/test2.txt
+-t -b tests/test4.txt tests/test3.txt
+-t -e tests/test1.txt tests/test2.txt
+-t -e tests/test1.txt tests/test3.txt
+-t -e tests/test1.txt tests/test4.txt
+-t -e tests/test2.txt tests/test1.txt
+-t -e tests/test2.txt tests/test3.txt
+-t -e tests/test2.txt tests/test4.txt
+-t -e tests/test3.txt tests/test1.txt
+-t -e tests/test3.txt tests/test2.txt
+-t -e tests/test3.txt tests/test4.txt
+-t -e tests/test4.txt tests/test1.txt
+-t -e tests/test4.txt tests/test2.txt
+-t -e tests/test4.txt tests/test3.txt
+-t -n tests/test1.txt tests/test2.txt
+-t -n tests/test1.txt tests/test3.txt
+-t -n tests/test1.txt tests/test4.txt
+-t -n tests/test2.txt tests/test1.txt
+-t -n tests/test2.txt tests/test3.txt
+-t -n tests/test2.txt tests/test4.txt
+-t -n tests/test3.txt tests/test1.txt
+-t -n tests/test3.txt tests/test2.txt
+-t -n tests/test3.txt tests/test4.txt
+-t -n tests/test4.txt tests/test1.txt
+-t -n tests/test4.txt tests/test2.txt
+-t -n tests/test4.txt tests/test3.txt
+-t -s tests/test1.txt tests/test2.txt
+-t -s tests/test1.txt tests/test3.txt
+-t -s tests/test1.txt tests/test4.txt
+-t -s tests/test2.txt tests/test1.txt
+-t -s tests/test2.txt tests/test3.txt
+-t -s tests/test2.txt tests/test4.txt
+-t -s tests/test3.txt tests/test1.txt
+-t -s tests/test3.txt tests/test2.txt
+-t -s tests/test3.txt tests/test4.txt
+-t -s tests/test4.txt tests/test1.txt
+-t -s tests/test4.txt tests/test2.txt
+-t -s tests/test4.txt tests/test3.txt
+-t -v tests/test1.txt tests/test2.txt
+-t -v tests/test1.txt tests/test3.txt
+-t -v tests/test1.txt tests/test4.txt
+-t -v tests/test2.txt tests/test1.txt
+-t -v tests/test2.txt tests/test3.txt
+-t -v tests/test2.txt tests/test4.txt
+-t -v tests/test3.txt tests/test1.txt
+-t -v tests/test3.txt tests/test2.txt
+-t -v tests/test3.txt tests/test4.txt
+-t -v tests/test4.txt tests/test1.txt
+-t -v tests/test4.txt tests/test2.txt
+-t -v tests/test4.txt tests/test3.txt
+-v -b tests/test1.txt tests/test2.txt
+-v -b tests/test1.txt tests/test3.txt
+-v -b tests/test1.txt tests/test4.txt
+-v -b tests/test2.txt tests/test1.txt
+-v -b tests/test2.txt tests/test3.txt
+-v -b tests/test2.txt tests/test4.txt
+-v -b tests/test3.txt tests/test1.txt
+-v -b tests/test3.txt tests/test2.txt
+-v -b tests/test3.txt tests/test4.txt
+-v -b tests/test4.txt tests/test1.txt
+-v -b tests/test4.txt tests/test2.txt
+-v -b tests/test4.txt tests/test3.txt
+-v -e tests/test1.txt tests/test2.txt
+-v -e tests/test1.txt tests/test3.txt
+-v -e tests/test1.txt tests/test4.txt
+-v -e tests/test2.txt tests/test1.txt
+-v -e tests/test2.txt tests/test3.txt
+-v -e tests/test2.txt tests/test4.txt
+-v -e tests/test3.txt tests/test1.txt
+-v -e tests/test3.txt tests/test2.txt
+-v -e tests/test3.txt tests/test4.txt
+-v -e tests/test4.txt tests/test1.txt
+-v -e tests/test4.txt tests/test2.txt
+-v -e tests/test4.txt tests/test3.txt
+-v -n tests/test1.txt tests/test2.txt
+-v -n tests/test1.txt tests/test3.txt
+-v -n tests/test1.txt tests/test4.txt
+-v -n tests/test2.txt tests/test1.txt
+-v -n tests/test2.txt tests/test3.txt
+-v -n tests/test2.txt tests/test4.txt
+-v -n tests/test3.txt tests/test1.txt
+-v -n tests/test3.txt tests/test2.txt
+-v -n tests/test3.txt tests/test4.txt
+-v -n tests/test4.txt tests/test1.txt
+-v -n tests/test4.txt tests/test2.txt
+-v -n tests/test4.txt tests/test3.txt
+-v -s tests/test1.txt tests/test2.txt
+-v -s tests/test1.txt tests/test3.txt
+-v -s tests/test1.txt tests/test4.txt
+-v -s tests/test2.txt tests/test1.txt
+-v -s tests/test2.txt tests/test3.txt
+-v -s tests/test2.txt tests/test4.txt
+-v -s tests/test3.txt tests/test1.txt
+-v -s tests/test3.txt tests/test2.txt
+-v -s tests/test3.txt tests/test4.txt
+-v -s tests/test4.txt tests/test1.txt
+-v -s tests/test4.txt tests/test2.txt
+-v -s tests/test4.txt tests/test3.txt
+-v -t tests/test1.txt tests/test2.txt
+-v -t tests/test1.txt tests/test3.txt
+-v -t tests/test1.txt tests/test4.txt
+-v -t tests/test2.txt tests/test1.txt
+-v -t tests/test2.txt tests/test3.txt
+-v -t tests/test2.txt tests/test4.txt
+-v -t tests/test3.txt tests/test1.txt
+-v -t tests/test3.txt tests/test2.txt
+-v -t tests/test3.txt tests/test4.txt
+-v -t tests/test4.txt tests/test1.txt
+-v -t tests/test4.txt tests/test2.txt
+-v -t tests/test4.txt tests/test3.txt
